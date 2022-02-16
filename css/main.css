@@ -1,0 +1,346 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300&family=Roboto:wght@100;300;500&display=swap');
+*{
+  
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+a{
+    text-decoration: none;
+}
+body{
+
+}
+.logo{
+    font-family:'Roboto', sans-serif;
+    font-size:500;
+    color:black;
+}
+.logo--style{
+    color:gold;
+}
+.nav__list{
+    display: flex;
+    padding: 40px;
+   justify-content: space-between;
+   margin-right: 30px;
+   margin-left: 30px;
+  
+
+}
+header{
+    background: rgb(252, 251, 251);
+}
+
+.nav__links{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+   
+}.nav__links,a{
+    margin-right: 32px;
+    font-family:'Roboto', sans-serif;
+    font-weight: 300;
+    color: black;
+    text-transform: uppercase;
+    font-size: 12px;
+}
+.buttons{
+   align-self: auto;
+   font-family: 'Roboto', sans-serif;
+   border: 2px solid gold;
+   border-radius: 8px;
+   background: rgb(252, 251, 251);
+   padding:10px 20px;
+   color: black;
+   text-transform: uppercase;
+   font-size: 12px;
+   cursor: pointer;
+   
+
+}
+.buttonss{
+   
+    align-self: auto;
+    font-family: 'Roboto', sans-serif;
+    border: none;
+    border-radius: 8px;
+    background: gold;
+    padding:10px 20px;
+    color: black;
+    text-transform: uppercase;
+    font-size: 12px;
+    cursor: pointer;
+
+}
+.comment-btn{
+    font-family: 'Roboto', sans-serif;
+    border: none;
+    border-radius: 8px;
+    background: gold;
+    padding:10px 20px;
+    color: black;
+    text-transform: uppercase;
+    font-size: 12px;
+    cursor: pointer;
+
+}
+.section__img--bg{
+    background: rgb(61, 56, 56);
+    height: 400px;
+    background-image: url("/images/frompho.jpg");
+    background-repeat: no-repeat, repeat;
+    background-size: cover;
+
+}
+.section__container{
+    border-radius: 16px;
+    margin: 0 auto;
+    width: 100%;
+    padding: 100px;
+    text-align: center;
+  
+    color: rgb(252, 251, 251);
+}
+.section__header{
+    font-weight: 300;
+    font-size: 40px;
+    font-family: 'Nunito', sans-serif !important;
+
+}
+.section__text{
+    font-family: 'Roboto', sans-serif !important;
+    font-weight: 100;
+    font-size: 16px;
+    
+}
+
+.services{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(340px,1fr));
+    grid-gap:20px;
+}
+.services__items{
+    background: black;
+}
+.section__button{
+    padding: 20px;
+
+    margin-top:20px;
+}
+.main--service{
+    display: grid;
+    grid-template-columns: 2;
+    grid-auto-rows: minmax(100px, auto);
+   
+
+
+}
+img.images--service{
+width:40%;
+border-radius: 8px;
+}
+.right{
+   
+}
+.servicess{
+    color: black !important;
+}
+p.service{
+    text-align: center;
+  color: black; 
+  font-family: 'Roboto', sans-serif ;
+    font-weight: 100;
+    font-size: 12px;
+   
+}
+.dash{
+    color: gold;
+    font-weight: 500;
+}
+h2.what_wedo{
+    line-height: 0px;
+  text-align: center;
+  color: black;
+  font-family:'Roboto', sans-serif ;
+  font-weight:300;
+  padding: 20px;
+}
+
+footer{
+    background: black;
+    color: gold;
+    height: 150px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif ;
+    font-weight: 100;
+   
+}
+.footer_copy{
+ padding: 60px;
+ font-size: 12px;
+}
+
+
+
+
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+  
+    padding: 10px;
+  }
+  .grid-item {
+    position: relative;
+   
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+  }
+  .grid-item-about{
+    position: relative;
+   
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+    box-shadow: 8px 8px 30px grey;
+  }
+  img.service--image{
+      width: 80%;
+      border-radius: 5px;
+      cursor: pointer;
+
+
+
+
+  }
+  .more--service{
+    font-family: 'Roboto', sans-serif !important;
+    font-weight: 100;
+    font-size: 16px;
+    color: black;
+  }
+  .uil-mouse-alt{
+      font-size: 15px;
+      font-family: 'Roboto', sans-serif !important;
+      font-weight: 100;
+  }
+  .top--section{
+    
+      height:200px;
+      background: rgb(61, 56, 56);
+      padding: 100px;
+      background-image: url("/images/top--section.jpg");
+      background-repeat: no-repeat, repeat;
+      background-size: cover;
+      color: white !important;
+  }
+  .below--section{
+    
+    height:400px;
+    background: rgb(61, 56, 56);
+    padding: 100px;
+    background-image: url("/images/map.PNG");
+    background-repeat: no-repeat, repeat;
+    background-size: cover;
+    color: white !important;
+}
+  .top-service{
+      color: white !important;
+   
+
+  }
+  .contact--page{
+    height:200px;
+    background: rgb(61, 56, 56);
+    padding: 70px;
+    background-image: url("/images/image.png");
+    background-repeat: no-repeat, repeat;
+    background-size: cover;
+    width: 90%;
+    margin: 0 auto;
+    border-radius: 5px;
+    margin-bottom: 40px;
+  }
+  .about-section{
+    height:200px;
+   
+    padding: 70px;
+
+    width: 90%;
+    margin: 0 auto;
+    border-radius: 5px;
+    margin-bottom: 40px;
+    box-shadow: 20px 20px 50px 10px gold inset;
+  }
+  .about-Mission{
+    height:400px;
+   
+    padding: 70px;
+
+    width: 90%;
+    margin: 0 auto;
+    border-radius: 5px;
+    margin-bottom: 40px;
+    box-shadow: 20px 20px 50px 10px rgba(255, 217, 0, 0.192) inset;
+  }
+  .section__button{
+      text-align: center;
+  }
+
+ input.text--input{
+    background: rgb(231, 227, 227);
+     padding: 10px;
+     font-family: 'Roboto', sans-serif;
+     font-weight: 100;
+     border-radius: 7px;
+     border: none;
+     color: white;
+     width: 400px;
+     margin-top: 30px;
+ }
+ textarea.text--input{
+    background: rgb(231, 227, 227);
+     padding: 10px;
+     font-family: 'Roboto', sans-serif;
+     font-weight: 100;
+     border-radius: 7px;
+     border: none;
+     color: white;
+     width: 400px;
+     margin-top: 30px;
+ }
+ .signup--content{
+width: 400px;
+margin: 0 auto;
+
+ } .contact--content{
+    width: 400px;
+   
+    
+     }
+ .signup-container{
+     padding: 100px;
+
+ }.b-container{
+     display: grid;
+     display: grid;
+     grid-template-columns: 50% auto;
+     margin-top: 10px;
+    
+ }
+ .contact-section-area{
+     display: grid;
+     grid-template-columns: 55% auto;
+     padding: 20px;
+
+ }.left-section{
+     padding: 10px;
+ }
+ 
